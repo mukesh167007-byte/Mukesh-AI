@@ -55,7 +55,7 @@ class ChatRequest(BaseModel):
 @app.get("/")
 def home():
     return {
-        "message": "Welcome to Mukesh AI"
+        "message": "Backend is running"
     }
 
 
